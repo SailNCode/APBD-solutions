@@ -38,7 +38,7 @@ public class AnimalsController: ControllerBase
         }
         
         AnimalDAO.AddAnimal(animal);
-        return Ok();
+        return Created();
     }
     [HttpPut("{id}")]
     public IActionResult UpdateAnimal(Animal animal, int id)

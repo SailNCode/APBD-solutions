@@ -22,6 +22,6 @@ public class VisitsController : ControllerBase
         }
 
         VisitDAO.AddVisit(visit);
-        return Ok();
+        return Created();
     }
 }
