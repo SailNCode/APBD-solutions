@@ -1,0 +1,6 @@
+@lec_07_HostAddress = http://localhost:5213
+
+GET {{lec_07_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
